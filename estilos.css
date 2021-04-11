@@ -1,0 +1,66 @@
+/*Se ajustaron las márgenes del menú de acuerdo a la imagen guía*/
+* {
+    margin: 15px;
+    padding: 0px;
+}
+/*Se centraron las figuras creando un container para el div*/
+.container {
+    margin-left: 45%;
+    margin-right: 5%;
+    margin-top: 3%;
+    }
+/*Estilo Figura 1*/
+.circulo {
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: solid; 
+    border-width: 5px;
+    border-color: rgb(253, 186, 174);
+    box-shadow: 7px 5px 5px #646464;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+/*Estilo Figura 2*/
+.cuadrado {
+    background-color: rgb(84, 144, 221);
+    height: 120px;
+    width: 120px;  
+    box-shadow: 7px 5px 5px #646464;
+    margin-bottom: 10%;
+}
+/*Estilo Figura 3*/
+.cuadrado2 {
+    width: 0;
+    height: 0;
+    border-left: 120px solid rgb(80, 126, 226);
+    border-bottom: 60px solid rgb(252, 73, 73);
+    border-top: 60px solid rgb(247, 189, 81);
+    box-shadow: 7px 5px 5px #646464;
+    margin-bottom: 10%;   
+}
+/*Estilo Figura 4*/
+.circulo2 {
+    width: 0;
+    height: 0;
+    border-left: 60px solid rgb(80, 126, 226);
+    border-bottom: 60px solid rgb(252, 73, 73);
+    border-top: 60px solid rgb(247, 189, 81);
+    border-right: 60px solid transparent;
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+/*Footer*/
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer p {
+    padding-top: 2%;
+}

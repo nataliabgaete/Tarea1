@@ -1,0 +1,38 @@
+/*Configuración del menú*/
+nav {
+    background-color: black;
+    color: red;
+    height: 100px;
+    border: solid;
+    border-color: red;
+    border-radius: 10px;
+    border-width: 5px;
+}
+/*Elementos li se centran en una sola línea*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Se quitan las viñetas, se ajusta la separación entre li*/
+.menu li {
+    width: 10;
+    list-style: none;
+}
+/*Configuración de li, se quita underlined, añade borde*/
+.menu a {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    border-color: white;
+}
+/*Configuración de atributo hover*/
+.menu a:hover {
+    background-color: white;
+    border: white solid;    
+    border-radius: 5px; 
+    color:black
+}
